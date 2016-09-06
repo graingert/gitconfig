@@ -1,0 +1,22 @@
+[user]
+	email = tom.grainger@procensus.com
+	name = Thomas Grainger
+	# signingkey = ADE19B64025EFB8E5C6651F76F1B9C95E1E8F143
+	signingkey = 435D673859E0379552F225A0995EA0A029283160
+[core]
+	excludesfile = /home/graingert/.gitignore_global
+	editor = vim
+	pager = less -F -X
+[gitreview]
+	scheme = https
+	port = 443
+[rebase]
+	autoStash = true
+[push]
+	default = current
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
+[alias]
+	lol = log --graph --pretty=format:\"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)(%cr)%Creset %C(green)%ce%Creset %s\"
