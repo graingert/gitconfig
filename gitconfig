@@ -1,8 +1,8 @@
 [user]
-	email = tom.grainger@procensus.com
+	email = tom@procensus.com
 	name = Thomas Grainger
 	# signingkey = ADE19B64025EFB8E5C6651F76F1B9C95E1E8F143
-	signingkey = 435D673859E0379552F225A0995EA0A029283160
+	signingkey = F14A961FD85279232A064F51B120038F793F513C
 [core]
 	excludesfile = /home/graingert/.gitignore_global
 	editor = vim
