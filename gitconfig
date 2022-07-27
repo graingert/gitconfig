@@ -1,23 +1,23 @@
 [user]
-	email = tagrain@gmail.com
-	name = Thomas Grainger
-	signingkey = E7BED358B9F85AFC6CB284F9E452A1247BAC1A88
+        email = tagrain@gmail.com
+        name = Thomas Grainger
+        signingkey = B8EC88A496F1E2292690BE842241857EB9DA2BC6
 [core]
-	editor = vim
-	pager = less -F -X
+        editor = vim
+        pager = less -F -X
 [gitreview]
-	scheme = https
-	port = 443
+        scheme = https
+        port = 443
 [rebase]
-	autoStash = true
+        autoStash = true
 [push]
-	default = current
+        default = current
 [commit]
-	gpgsign = true
+        gpgsign = true
 [alias]
-	lol = log --graph --pretty=format:\"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)(%cr)%Creset %C(green)%ce%Creset %s\"
+        lol = log --graph --pretty=format:\"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)(%cr)%Creset %C(green)%ce%Creset %s\"
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
